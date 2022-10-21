@@ -21,7 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="attention.py" />
+    <Compile Include="blocks.py" />
+    <Compile Include="extract.py" />
+    <Compile Include="forwarddiffuse.py" />
+    <Compile Include="PreNorm.py" />
+    <Compile Include="SinusoidalPositionEmbeddings.py" />
     <Compile Include="diffmod.py" />
+    <Compile Include="resid.py" />
+    <Compile Include="Unet.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
